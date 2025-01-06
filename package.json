@@ -8,14 +8,4 @@
     "react-router-dom": "^7.1.1",
     "tailwind-merge": "^2.6.0"
   },
-  "name": "wellness-puzzle",
-  "version": "1.0.0",
-  "description": "Wellnezpuzzle",
-  "repository": {
-    "url": "https://github.com/iMaleff/wp"
-  },
-  "author": {
-    "name": "Igor Malev",
-    "email": "wellnezpuzzle@gmail.com"
-  }
 }
