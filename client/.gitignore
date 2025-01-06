@@ -10,22 +10,35 @@ coverage
 dist
 build
 
-# Misc
-.DS_Store
+# Environment files
 .env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.development
+.env.test
+.env.production
+.env.*
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Editor
+# Editor directories
 .vscode
 .idea
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
 
 # Supabase
-/supabase/functions
+/supabase/.env
+/supabase/.env.*
+/supabase/config.toml
+
+# Cache
+.cache
+.eslintcache
+.npm
